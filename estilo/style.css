@@ -24,8 +24,7 @@ main p{text-align: justify;}
 th, td {border: 2px solid black; padding: 10px;}
 
 /* RODAPÉ */
-footer {background-color: var(--cor3); color: var(--cor4); padding: 5px; line-height: 2em;
-        padding-left: 40px; padding-right: 40px; font-family: var(--fontfooter);}
+footer {background-color: var(--cor3); color: var(--cor4); font-family: var(--fontfooter); padding: 0 0 20px 0;}
 
 footer a {color: var(--cor1); text-decoration: none;}
 footer a:hover {text-decoration: underline;} 
