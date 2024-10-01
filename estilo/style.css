@@ -26,5 +26,29 @@ th, td {border: 2px solid black; padding: 10px;}
 /* RODAPÉ */
 footer {background-color: var(--cor3); color: var(--cor4); padding: 5px; line-height: 2em;
         padding-left: 40px; padding-right: 40px; font-family: var(--fontfooter);}
+
 footer a {color: var(--cor1); text-decoration: none;}
 footer a:hover {text-decoration: underline;} footer p {text-align: center;}
+
+footer div {display: flex; justify-content: center; height: 30px;}
+#paragrafo3 {display: none;}
+#paragrafo4 {display: none;}
+
+@media (max-width: 850px) {
+  #paragrafo2 {display: none;}
+  #paragrafo3 {display: block;}
+  #paragrafo3 div {display: flex; justify-content: center;}
+  footer {padding-bottom: 50px;}
+}
+
+@media (max-width: 600px) {
+  footer {font-size: .7em;}
+}
+
+@media (max-width: 410px) {
+  #paragrafo1 {display: block; text-align: center;}
+  #paragrafo1 .espaço {display: none;}
+  #paragrafo3 {display: none;}
+  #paragrafo4 {display: block;}
+  #paragrafo4 div {display: flex; justify-content: center;}
+}
