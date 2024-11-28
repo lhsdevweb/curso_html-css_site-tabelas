@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+footer {background-color: black; color: white; padding: 20px; text-align: center; 
+        line-height: 1.5em; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+footer a {color: yellow; text-decoration: none;}
+footer a:hover {text-decoration: underline;} 
+
+footer div {display: flex; justify-content: center;}
+footer p {margin: 0; padding: 0;}
+#paragrafo3 {display: none;}
+#paragrafo4 {display: none;}
+
+@media (max-width: 900px) {
+    footer {font-size: .7em;}
+}
+@media (max-width: 700px) {
+    #paragrafo2 {display: none;}
+    #paragrafo3 {display: block;}
+}
+@media (max-width: 600px) {
+    footer {font-size: .7em; padding-bottom: 15px;}
+}
+@media (max-width: 450px) {
+    #paragrafo1 {display: block;}
+    #paragrafo1 .espaço {display: none;}
+    #paragrafo3 {display: none;}
+    #paragrafo4 {display: block;}
+} 
+
+/*
+footer {background-color: var(--cor3); color: var(--cor4); font-family: var(--fontfooter);
+        padding: 0 0 20px 0;}
+
+footer a {color: var(--cor1); text-decoration: none;}
+footer a:hover {text-decoration: underline;} 
+
+footer div {display: flex; justify-content: center; height: 30px;}
+#paragrafo3 {display: none;}
+#paragrafo4 {display: none;}
+
+@media (max-width: 850px) {
+    footer {padding-bottom: 50px;}
+    #paragrafo2 {display: none;}
+    #paragrafo3 {display: block;}
+    #paragrafo3 div {display: flex; justify-content: center;}
+}
+
+@media (max-width: 600px) {
+    footer {font-size: .7em;}
+}
+
+@media (max-width: 410px) {
+    #paragrafo1 {display: block; text-align: center;}
+    #paragrafo1 .espaço {display: none;}
+    #paragrafo3 {display: none;}
+    #paragrafo4 {display: block;}
+    #paragrafo4 div {display: flex; justify-content: center;}
+}
+
+*/

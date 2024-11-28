@@ -1,0 +1,21 @@
+@charset "UTF-8";
+html, body {margin: 0; padding: 0;}
+:root {--fonttitulo: 'Courier New', Courier, monospace; 
+        --fontmenu: Arial, Helvetica, sans-serif; 
+        --fontfooter: Verdana, Geneva, Tahoma, sans-serif;
+        --cor1: yellow; --cor2: grey; --cor3: black; --cor4: white;}
+
+/* CABEÇALHO */
+h1, h2, h3 {font-family: var(--fonttitulo); text-align: center;}
+
+/* CONTEÚDO PRINCIPAL */
+main {background-color: var(--cor4); max-width: 600px; margin: auto; padding: 20px; 
+      border: 1px solid rgb(12, 12, 100); border-radius: 20px;}
+main p {text-align: justify;}
+
+th, td {border: 2px solid black; padding: 10px;}
+
+/* LINKS DE RETORNO A PÁGINA PRINCIPAL*/
+section {text-align: center; padding: 10px;} 
+section a {color: var(--cor4); text-decoration: none;} 
+section a:hover {text-decoration: underline;}
