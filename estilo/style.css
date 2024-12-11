@@ -6,7 +6,7 @@ html, body {margin: 0; padding: 0;}
         --cor1: yellow; --cor2: grey; --cor3: black; --cor4: white;}
 
 /* CABEÇALHO */
-h1, h2, h3 {font-family: var(--fonttitulo); text-align: center;}
+h2, h3 {font-family: var(--fonttitulo); text-align: center;}
 
 /* CONTEÚDO PRINCIPAL */
 main {background-color: var(--cor4); max-width: 600px; margin: auto; padding: 20px; 
